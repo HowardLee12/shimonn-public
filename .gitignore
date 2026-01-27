@@ -1,0 +1,34 @@
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node / Backend
+backend/node_modules/
+backend/npm-debug.log
+backend/yarn-error.log
+backend/.env
+backend/.env.local
+backend/.env.development.local
+backend/.env.test.local
+backend/coverage/
+backend/dist/
+backend/build/
+
+# iOS / Xcode
+ios-app/ShiMon/ShiMon.xcodeproj/project.xcworkspace/
+ios-app/ShiMon/ShiMon.xcodeproj/xcuserdata/
+ios-app/ShiMon/DerivedData/
+ios-app/ShiMon/build/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+backend/shimonn-data/
